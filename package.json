@@ -1,0 +1,22 @@
+{
+  "name": "automation-testing-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "testGet": "mocha test/api/getExample.js",
+    "testPost": "mocha test/api/postExample.js"
+  },
+  "author": "parhan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12"
+  }
+}
